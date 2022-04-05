@@ -1,0 +1,31 @@
+* {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size:14px;
+}
+.container{
+    width:50%;
+    margin:auto auto;
+    border-radius: 20px;
+    border:1px solid rgb(196, 196, 196);
+}
+.container header{
+    background-color: rgb(172, 172, 172);
+    color:white;
+    border-radius: 20px 20px 0px 0px;
+    font-size: 20px;
+    text-align: center;
+}
+.container form{
+    margin:40px;
+    display: flex;
+    flex-flow: column wrap;
+    align-items: center;
+}
+input{
+    border-radius: 10px;
+    border:1px solid gray;
+    padding:10px;
+}
+input:hover{
+    border:1px solid black;
+}
